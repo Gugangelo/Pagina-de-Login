@@ -1,5 +1,3 @@
 #Objetivo
 
-Criar uma página simples de login.
-
-ddsdds
+Criar uma página simples de login usando HTML + CSS + JS em conjunto.
