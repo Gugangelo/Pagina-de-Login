@@ -5,7 +5,37 @@ body {
 }
 
 .Menu-Principal {
-    width: 100%;
+    width: auto;
     height: 96px;
-    margin: 24px;
+    margin: 4px;
+    background-color: blueviolet;
+}
+
+.Nome-do-site {
+    background-color: aqua;
+}
+
+.Centro {
+    margin-left: 35%;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 10%;
+    height: 480px;
+    width: 480px;
+}
+
+.Barra-Login {
+    width: 25%;
+    height: 25%;
+    /* float: left; */
+    /* margin-top: -8px;
+    margin-left: 32px;
+    margin-bottom: 16px; */
+}
+
+.Barra-Login input {
+    width: 240px;
+    height: 32px;
+    font-size: 16px;
+    padding-left: 4px;
 }
