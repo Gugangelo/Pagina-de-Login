@@ -7,13 +7,43 @@ body {
 
 .Menu-Principal {
     width: auto;
-    height: 96px;
+    height: 108px;
     margin: 4px;
-    background-color: blueviolet;
+    background-color: white;
+}
+
+.Logo {
+    width: 30%;
+    padding: 6px;
+    /* height: 48px; */
+}
+
+.Logo img {
+    float: left;
+    padding-right: 32px;
+
 }
 
 .Nome-do-site {
     background-color: aqua;
+    float: left;
+    margin-top: 6%;
+    font-size: 24px;
+}
+
+.Simbolos_de_redes_sociais {
+    width: 36%;
+    float: right;
+    height: 24px;
+    padding-left: 0px;
+}
+
+.Simbolos_de_redes_sociais ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    /* width: 25%; */
+    margin-left: 16px;
 }
 
 .Centro {
@@ -41,11 +71,29 @@ body {
     padding-left: 4px;
 }
 
+.Login {
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    width: 240px;
+    padding-left: 45px;
+}
+
+.Senha {
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    width: 240px;
+    /* margin-right: 12px; */
+    padding-left: 48px;
+}
+
 .Show_PSW {
     font-size: 12px;
-    padding-left: 0px;
-    /* float: left; */
-    margin-bottom: 16px;
+    padding-right: 100px;
+    /* float: right; */
+    margin-top: 24px;
+    /* width: 120px; */
 }
 
 input.Checkbox_PSW {
@@ -58,12 +106,15 @@ h1 {
 }
 
 h2 {
-    padding-top: 0px;
+    /* padding-top: 0px;
+    font-size: 16px;
+    width: 120px; */
 }
 
 h3 {
     font-size: 12px;
     padding-left: 144px;
+    margin-bottom: 48px;
 }
 
 .Button {
